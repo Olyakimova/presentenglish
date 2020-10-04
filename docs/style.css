@@ -2,14 +2,13 @@ body {
   color: white;
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(217, 217, 217);
-  margin: -15px;
+  margin: 0;
 }
 
 .main-waper {
-  width: 890px;
+  width: 880px;
   height: auto;
   margin: 0 auto;
-  padding: 0;
 }
 
 #content {
@@ -17,8 +16,14 @@ body {
   height: auto;
   margin: 0;
   padding-left: 15px;
+  padding-right: 15px;
   background-color: rgb(181, 40, 40);
   background-image: none;
+}
+
+#hat {
+  padding-top: 1px;
+  padding-left: 15px;
 }
 
 h1 {
@@ -30,30 +35,46 @@ h1 {
 h2 {
   font-size: 18px;
   margin-inline-start: 20px;
-  padding-top: 9px;
 }
 
 #list {
+  height: 490px;
   font-size: 18px;
   position: relative;
-  left: 0px;
-  top: 50px;
+  top: 230px;
 }
 
-img {
-  width: auto;
-  height: auto;
-  border: none;
-  position: relative;
-}
-
-.photo .info {
-  float: left;
-  position: relative;
+.teacher {
+  display: flex;
+  justify-content: start;
 }
 
 #Mulile {
+  height: 490px;
+}
+
+.photo img {
+  width: 425px;
+}
+
+.info {
+  padding-left: 23px;
+  font-size: 21px;
+}
+#info {
   position: relative;
-  left: 5px;
-  top: 50px;
+  top: 15px;
+}
+li {
+  font-size: 17px;
+}
+
+#Hardeo {
+  height: 490px;
+  justify-content: flex-end;
+}
+
+#certification {
+  position: relative;
+  left: 9%;
 }
