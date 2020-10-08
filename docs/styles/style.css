@@ -3,6 +3,8 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(217, 217, 217);
   margin: 0;
+  background-image: url(../images/collage.jpg); /* !!!!!!!!!!!!!!!! */
+  background-position: 50px 50px;
 }
 
 .main-waper {
@@ -18,12 +20,44 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   background-color: rgb(181, 40, 40);
-  background-image: none;
 }
 
 #hat {
   padding-top: 1px;
   padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blok-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.blok-messenger {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.t-sociallinks_item {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 h1 {
@@ -46,10 +80,13 @@ h2 {
 
 .teacher {
   display: flex;
+  flex-direction: column;
   justify-content: start;
 }
 
 #Mulile {
+  display: flex;
+  flex-direction: row;
   height: 490px;
 }
 
@@ -71,10 +108,21 @@ li {
 
 #Hardeo {
   height: 490px;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
 }
 
-#certification {
-  position: relative;
-  left: 9%;
+.topic {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.tracery img {
+  height: auto;
+  width: 880px;
 }

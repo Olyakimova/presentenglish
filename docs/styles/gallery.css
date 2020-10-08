@@ -1,0 +1,20 @@
+#certificates {
+}
+
+.gallery {
+  display: flex;
+  justify-content: start;
+}
+
+.preview {
+  width: 120px;
+}
+
+.preview img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.preview img.active {
+  border: solid 5px #ff9933;
+}
