@@ -1,10 +1,11 @@
 body {
   color: white;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(217, 217, 217);
   margin: 0;
-  background-image: url(../images/collage.jpg); /* !!!!!!!!!!!!!!!! */
-  background-position: 50px 50px;
+  background-image: url(../images/photo_2020-10-03_19-26-37.jpg);
+  background-repeat: repeat-y;
 }
 
 .main-waper {
@@ -22,18 +23,33 @@ body {
   background-color: rgb(181, 40, 40);
 }
 
+#menu {
+  position: fixed;
+  background-color: rgb(181, 40, 40);
+}
+
 #hat {
-  padding-top: 1px;
-  padding-left: 15px;
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+header {
+  width: 865px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .blok-contact {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 a:-webkit-any-link {
@@ -43,7 +59,7 @@ a:-webkit-any-link {
 }
 
 .contact {
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -61,21 +77,18 @@ a:-webkit-any-link {
 }
 
 h1 {
-  font-size: 45px;
-  margin-block-start: -0.33em;
-  margin-block-end: -0.33em;
+  font-size: 42px;
+  margin-block-start: -0.45em;
+  margin-block-end: -0.45em;
 }
-
 h2 {
-  font-size: 18px;
+  font-size: 15px;
   margin-inline-start: 20px;
 }
-
-#list {
-  height: 490px;
-  font-size: 18px;
-  position: relative;
-  top: 230px;
+h3 {
+  font-size: 16px;
+  /* margin-block-start: 0.5em; */
+  margin-block-end: 0.5em;
 }
 
 .teacher {
@@ -98,12 +111,9 @@ h2 {
   padding-left: 23px;
   font-size: 21px;
 }
-#info {
-  position: relative;
-  top: 15px;
-}
+
 li {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #Hardeo {
@@ -116,8 +126,7 @@ li {
 .topic {
   font-size: 22px;
   font-weight: bold;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -126,3 +135,9 @@ li {
   height: auto;
   width: 880px;
 }
+
+/* #price img {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+} */
